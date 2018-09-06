@@ -7,7 +7,7 @@ class Triangle
     @side3 = side3
   end
    def kind 
-    :equilateral, :isosceles, :scalene
+     if side
     
   end
 end
