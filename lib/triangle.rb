@@ -7,7 +7,8 @@ class Triangle
     @side3 = side3
   end
    def kind 
-     if side
+     if side1 == side2 == side3
+       :equilateral
     
   end
 end
